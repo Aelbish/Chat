@@ -10,6 +10,7 @@ const Login = () => {
     <div id="login-page">
       <div id="login-card">
         <h2>Welcome to Chat!</h2>
+        <p>Start chatting with your friends, family, and colleagues using Chat.</p>
         <div
           className="login-button google"
           onClick={() => {
