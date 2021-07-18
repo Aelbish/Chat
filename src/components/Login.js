@@ -19,7 +19,7 @@ const Login = () => {
             auth.signInWithRedirect(new firebase.auth.GoogleAuthProvider());
           }}
         >
-          <GoogleOutlined /> Sign In With Google
+          <GoogleOutlined />&nbsp;&nbsp;Sign In
         </div>
         <br />
         <br />
@@ -29,7 +29,7 @@ const Login = () => {
             auth.signInWithRedirect(new firebase.auth.FacebookAuthProvider());
           }}
         >
-          <FacebookOutlined /> Sign In With Facebook
+          <FacebookOutlined />&nbsp;&nbsp;Sign In
         </div>
       </div>
     </div>
