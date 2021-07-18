@@ -21,7 +21,7 @@ const Login = () => {
         >
           <GoogleOutlined />&nbsp;&nbsp;Sign In
         </div>
-        <br />
+        {/* <br />
         <br />
         <div
           className="login-button facebook"
@@ -30,7 +30,7 @@ const Login = () => {
           }}
         >
           <FacebookOutlined />&nbsp;&nbsp;Sign In
-        </div>
+        </div> */}
       </div>
     </div>
   );
