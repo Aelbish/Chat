@@ -10,7 +10,9 @@ const Login = () => {
     <div id="login-page">
       <div id="login-card">
         <h2>Welcome to Chat!</h2>
-        <p>Start chatting with your friends, family, and colleagues using Chat.</p>
+        <p>
+          Start chatting with your friends, family, and colleagues using Chat.
+        </p>
         <div
           className="login-button google"
           onClick={() => {
@@ -22,7 +24,7 @@ const Login = () => {
         <br />
         <br />
         <div
-          className="login-button google"
+          className="login-button facebook"
           onClick={() => {
             auth.signInWithRedirect(new firebase.auth.FacebookAuthProvider());
           }}
