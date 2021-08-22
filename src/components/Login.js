@@ -1,7 +1,6 @@
 import React from "react";
 import { GoogleOutlined, FacebookOutlined } from "@ant-design/icons";
 import "firebase/app";
-
 import { auth } from "../firebase";
 import firebase from "firebase/app";
 
@@ -19,7 +18,8 @@ const Login = () => {
             auth.signInWithRedirect(new firebase.auth.GoogleAuthProvider());
           }}
         >
-          <GoogleOutlined />&nbsp;&nbsp;Sign In
+          <GoogleOutlined />
+          &nbsp;&nbsp;Sign In
         </div>
         {/* <br />
         <br />
@@ -31,6 +31,23 @@ const Login = () => {
         >
           <FacebookOutlined />&nbsp;&nbsp;Sign In
         </div> */}
+        <div>
+          <p>
+            <a
+              href="https://aelbish.com/"
+              className="link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Made by{" "}
+              <img
+                src="https://aelbish.com/l20.png"
+                className="icon"
+                alt="Aelbish Logo"
+              />
+            </a>
+          </p>
+        </div>
       </div>
     </div>
   );
