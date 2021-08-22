@@ -11,10 +11,6 @@
   color: black;
 }
 
-.link:hover {
-  text-shadow: 0 0 7px rgb(0, 118, 228), 0 0 10px rgb(0, 217, 255), 0 0 21px rgb(255, 255, 255);
-}
-
 .icon {
   width: 1.5rem;
   height: 1.5rem;
